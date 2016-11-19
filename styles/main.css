@@ -1,0 +1,65 @@
+.col {
+	min-height: 50px;
+	width: 100%;
+	background-color: pink;
+}
+
+/*
+DONT TRY UNLESS YOU REALLY
+WANT EVERY ELEMENT TO HAVE FLOAT...
+.cols * {
+	float: left;
+}
+*/
+
+.col-half {
+	float: left;
+	width: 50%;
+	min-height: 250px;
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px dotted #ececec;
+	padding: 25px;
+}
+
+.col-third {
+	float: left;
+	width: 33.333%;
+	min-height: 250px;
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px dotted #ececec;
+	padding: 25px;
+}
+
+.col-fourth {
+	float: left;
+	width: 25%;
+	min-height: 250px;
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px dotted #ececec;
+	padding: 25px;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
